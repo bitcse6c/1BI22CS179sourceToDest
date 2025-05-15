@@ -5,27 +5,27 @@ package com.example;
  *
  */
  
- import org.apache.commons.io.FileUtils;
-import java.io.File;
-import java.io.IOException;
+ //import org.apache.commons.io.FileUtils;
+//import java.io.File;
+//import java.io.IOException;
 
 public class App 
 {
     public static void main( String[] args )
     {
        
-        
+        System.out.println("successfull");
         // Define source and destination files
-        File sourceFile = new File("source.txt");
-        File destFile = new File("destination.txt");
+       // File sourceFile = new File("source.txt");
+        //File destFile = new File("destination.txt");
 
-        try {
+        //try {
             // Copy file using Apache Commons IO
-            FileUtils.copyFile(sourceFile, destFile);
-            System.out.println("File copied successfully!");
-        } catch (IOException e) {
-            System.err.println("Error occurred while copying file: " + e.getMessage());
-        }
+           // FileUtils.copyFile(sourceFile, destFile);
+           // System.out.println("File copied successfully!");
+        //} catch (IOException e) {
+            //System.err.println("Error occurred while copying file: " + e.getMessage());
+        //}
     
     }
 }
